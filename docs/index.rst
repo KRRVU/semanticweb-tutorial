@@ -272,7 +272,7 @@ Semantic Web tutorial.
 -  (**OPTIONAL**) Setup the virtualenv in the directory of this
   repository (``virtualenv .``)
 -  (**OPTIONAL**) Activate the virtualenv (``source bin/activate`` on
-  linux-like systems)
+  linux-like systems, or on windows ``Scripts\activate.bat``)
 -  Install the necessary packages (``pip install -r requirements.txt``)
 -  Check the Stardog SPARQL endpoint URL in the ``TUTORIAL_REPOSITORY``
   variable in **both** ``src/tutorial.py`` and
