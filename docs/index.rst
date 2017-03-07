@@ -70,17 +70,25 @@ A working version of **Python**, preferably somewhat close to 2.7.12
 you?), you should replace all occurrences of ``pip`` below with the
 corresponding ``conda`` command.
 
-| If needed: \* Conda users can install Python 2.7 by running
- ``conda install python=2.7`` in the Terminal. \* Windows users can go
- to https://www.python.org to download it.
-| **NB**: make sure to enable the 'Add Python.exe to path' option during
- installation. \* Linux users should use the package manager of their
- system (e.g. ``sudo apt-get install python``) \* MacOS comes with a
+If needed:
+
+- Conda users can install Python 2.7 by running
+ ``conda install python=2.7`` in the Terminal.
+- Windows users can go to https://www.python.org to download it. **NB**: make sure to enable the 'Add Python.exe to path' option during
+ installation.
+- Linux users should use the package manager of their
+ system (e.g. ``sudo apt-get install python``)
+- MacOS comes with a
  pre-installed version, but you may consider using
  `Homebrew <http://brew.sh>`__ to install a clean and up-to-date
- version. - Start the Terminal application - Run
+ version.
+
+  - Start the Terminal application
+  - Run
  ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
- from the terminal - Then run ``brew update`` and ``brew doctor`` - Run
+ from the terminal
+ - Then run ``brew update`` and ``brew doctor``
+ - Run
  ``brew install python``
 
 2.4 Programming Libraries
